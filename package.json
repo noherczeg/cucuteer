@@ -1,0 +1,19 @@
+{
+  "name": "cucuteer",
+  "version": "0.1.0",
+  "description": "CucumberJS Puppeteer sample project",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint .",
+    "test": "cucumber-js -f json:cucumber_report.json"
+  },
+  "keywords": [],
+  "author": "Norbert Csaba Herczeg <noherczeg@gmail.com",
+  "license": "MIT",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "cucumber": "^5.1.0",
+    "eslint": "^5.15.3",
+    "puppeteer": "^1.13.0"
+  }
+}
